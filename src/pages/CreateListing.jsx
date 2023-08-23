@@ -175,8 +175,6 @@ function CreateListing() {
          timestamp: serverTimestamp()
       }
 
-      console.log(formDataCopy)
-
       delete formDataCopy.images
       delete formDataCopy.address
       location && (formDataCopy.location = location)

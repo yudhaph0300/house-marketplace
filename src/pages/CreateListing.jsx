@@ -9,7 +9,7 @@ import { toast } from "react-toastify"
 import { v4 as uuidv4 } from "uuid"
 
 function CreateListing() {
-   const [geolocationEnabled, setGeolocationEnabled] = useState(true)
+   const [geolocationEnabled] = useState(true)
    const [loading, setLoading] = useState(false)
    const [formData, setFormData] = useState({
       type: 'rent',
